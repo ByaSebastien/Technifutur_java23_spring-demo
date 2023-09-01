@@ -11,4 +11,6 @@ public interface GamerService extends CrudService<Gamer, Long> {
     boolean isEmailTaken(String email);
     boolean isPseudoTaken(String pseudo);
 
+    Gamer login(Gamer gamer);
+
 }
